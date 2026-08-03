@@ -44,8 +44,19 @@ body{
 }
 
 /* LOGO */
-.logo img{
+/* .logo img{
     height:80px;
+    cursor:pointer;
+} */
+
+.logo a{
+    display:inline-block;
+    text-decoration:none;
+}
+
+.logo img{
+      height:95px;
+    display:block;
     cursor:pointer;
 }
 
@@ -522,12 +533,12 @@ body{
 /* HERO */
 
 .legal-hero{
-    background:#f5f3f0;
+    background:#060f41;
     padding:90px 10%;
 }
 
 .hero-tag{
-    color:#0b1268;
+    color:#fbfbfc;
     font-size:13px;
     font-weight:700;
     letter-spacing:2px;
@@ -546,7 +557,7 @@ body{
 }
 
 .legal-hero p{
-    color:#5d6f84;
+    color:#eef0f3;
     font-size:18px;
 }
 
