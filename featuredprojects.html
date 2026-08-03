@@ -116,107 +116,115 @@ FEATURED PROJECTS
 ===========================-->
 
 <section class="featured-projects">
-
     <div class="section-title">
-
         <span>FEATURED PROJECTS</span>
-
         <h2>Our Success Stories</h2>
-
         <p>
             Explore some of our successful Tally implementations delivered
             across various industries.
         </p>
-
     </div>
+
 
     <div class="project-grid">
 
         <!-- Project 1 -->
-
-        <div class="project-card">
-
-            <img src="images/Club Management Solution.jpg" alt="Club Solution">
-
-            <div class="project-content">
-
-                <h3>Club Management System</h3>
-
-                <p>
-                    Customized Tally solution for complete club operations,
-                    membership and billing management.
-                </p>
-
-                <span>Industry : Club</span>
-
-            </div>
-
-        </div>
+       <div class="project-card">
+    <img src="images/Club Management Solution.jpg"
+         alt="Club Solution"
+         onclick="openImage(this.src)">
+    <div class="project-content">
+        <h3>Club Management System</h3>
+        
+        <p>
+    Comprehensive Tally solution for membership management, billing,
+    accounting, event management, and overall club administration.
+        </p>
+        <span>Industry : Club Management</span>
+    </div>
+</div>
 
         <!-- Project 2 -->
-
-        <div class="project-card">
-
-            <img src="images/Mfg. Solution.jpg" alt="Manufacturing">
-
-            <div class="project-content">
-
-                <h3>Manufacturing ERP</h3>
-
-                <p>
-                    Production, inventory, BOM and costing integrated with Tally.
-                </p>
-
-                <span>Industry : Manufacturing</span>
-
-            </div>
-
-        </div>
+    <div class="project-card">
+    <img src="images/Chit Fund Management.jpg"
+         alt="Chit Fund"
+         onclick="openImage(this.src)">
+    <div class="project-content">
+        <h3>Chit Fund Management</h3>
+       <p>
+    Streamlined chit operations with subscriber management, installment
+    tracking, auction processing, and financial reporting.
+</p>
+        <span>Industry : Chit Fund Management</span>
+    </div>
+</div>
 
         <!-- Project 3 -->
-
         <div class="project-card">
-
-            <img src="images/project3.jpg" alt="Hospital">
-
-            <div class="project-content">
-
-                <h3>Hospital Management</h3>
-
-                <p>
-                    Patient billing, pharmacy and accounting automation.
-                </p>
-
-                <span>Industry : Healthcare</span>
-
-            </div>
-
-        </div>
+    <img src="images/Mfg Solution.jpg"
+         alt=""
+         onclick="openImage(this.src)">
+    <div class="project-content">
+        <h3>Manufacturing Solutions</h3>
+      <p>
+    Integrated manufacturing solution with production planning, inventory
+    control, bill of materials, costing, and financial management.
+</p>
+        <span>Industry : Manufacturing Solutions</span>
+    </div>
+</div>
 
         <!-- Project 4 -->
-
         <div class="project-card">
+    <img src="images/Petrol Pump Solution.jpg"
+         alt="Petrol Pump"
+         onclick="openImage(this.src)">
+    <div class="project-content">
+        <h3>Petrol Pump Solution</h3>
+      <p>
+    End-to-end fuel station management including sales, inventory,
+    nozzle-wise reporting, billing, and accounting automation.
+</p>
+        <span>Industry : Petrol Pump Solution</span>
+    </div>
+</div>
+   
 
-            <img src="images/project4.jpg" alt="Education">
+ <!-- Project 5 -->
+<div class="project-card">
+    <img src="images/School Management Solution.jpg"
+         alt="School Management Solution"
+         onclick="openImage(this.src)">
+    <div class="project-content">
+        <h3>School Management Solution</h3>
+      <p>
+    Complete education management with student records, fee collection,
+    accounting, payroll, and administrative reporting.
+</p>
+        <span>Industry : School Management Solution </span>
+    </div>
+</div>
+    
 
-            <div class="project-content">
 
-                <h3>Educational Institution</h3>
 
-                <p>
-                    Student fee collection and complete accounting solution.
-                </p>
-
-                <span>Industry : Education</span>
-
-            </div>
-
-        </div>
-
+ <!-- Project 6 -->
+<div class="project-card">
+    <img src="images/Distributor & Retailers.jpg"
+         alt="Distributor & Retailers"
+         onclick="openImage(this.src)">
+    <div class="project-content">
+        <h3>Distributor & Retailers</h3>
+     <p>
+    Efficient inventory, order processing, billing, GST compliance,
+    customer management, and real-time business reporting.
+</p>
+        <span>Industry : Distributor & Retailers </span>
+    </div>
+</div>
     </div>
 
 </section>
-
 
 
 
@@ -246,9 +254,7 @@ FEATURED PROJECTS
 
 
 
-
 <section class="project-highlights">
-
 <div class="section-title">
 
 <span>WHY US</span>
@@ -280,17 +286,11 @@ FEATURED PROJECTS
 </div>
 
 </div>
-
 </section>
 
 
-
-
-
 <section class="work-cta">
-
 <h2>Ready to Start Your Project?</h2>
-
 <p>
 Partner with YENNES TDL to transform your business with
 industry-leading Tally solutions.
@@ -299,35 +299,15 @@ industry-leading Tally solutions.
 <a href="requestdemo.html" class="cta-btn">
 Request Demo
 </a>
-
 </section>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div id="imagePopup" class="image-popup">
+    <span class="close-btn" onclick="closeImage()">&times;</span>
+    <img id="popupImage" src="">
+</div>
 
 
 
@@ -358,6 +338,7 @@ Request Demo
             <h3>Our Services</h3>
             <ul>
                 <li>Tally Customization</li>
+        
                 <li>AMC Support</li>
                 <li>Tally Implementation</li>
                 <li>Cloud Solutions</li>
@@ -384,5 +365,7 @@ Request Demo
             © 2025 YENNES TDL | All Rights Reserved
         </p>
     </div>
+
+    <script src="contact.js"></script>
 </body>
 </html>

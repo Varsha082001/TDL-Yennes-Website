@@ -131,6 +131,23 @@ window.onclick=function(event){
     }
 }
 
+function openImage(src){
+    document.getElementById("imagePopup").style.display="flex";
+    document.getElementById("popupImage").src=src;
+}
+
+function closeImage(){
+    document.getElementById("imagePopup").style.display="none";
+}
+
+// Close when clicking outside the image
+document.getElementById("imagePopup").addEventListener("click",function(e){
+    if(e.target.id==="imagePopup"){
+        closeImage();
+    }
+});
+
+
 
 
 
